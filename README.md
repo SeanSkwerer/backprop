@@ -43,6 +43,7 @@ Let's assume we are solving a regression problem and use a squared error loss $C
 
 One of the important things to remember when implementing backpropogation is that the gradients are calculate per datapoint and then aggergated before the update step. So in each of these formulas the gradients or partial derivatives are going to be evaluated per datapoint in the recursive backward pass, rather than aggregating over the dataset or batch at each recursive step of the backward pass. 
 
+Unforunately the latex is not displaying properly in the GitHub, but if you pull the repo and open the README.md in the markdown preview, the latex snipets in the following sections will display properly. 
 For the output layer $L$:
 
 $
